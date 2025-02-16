@@ -106,7 +106,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
     println!("CAN1 & CAN2 started. Ready for transmission and reception");
 
-    let is_receiving = Arc::new(AtomicBool::new(false));
     let running = Arc::new(AtomicBool::new(true));
 
     let running_clone = Arc::clone(&running);
