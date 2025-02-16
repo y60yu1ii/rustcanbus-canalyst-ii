@@ -1,0 +1,9 @@
+[package]
+name = "load_dll_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+signal-hook = "0.3"
+libloading = "0.8"
+crossterm = "0.28.1"
